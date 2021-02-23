@@ -1,11 +1,22 @@
+* {
+  border: 1px solid lavender;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
 main {
   display: flex;
   flex-direction: row;
 }
 
+.left-section {
+  width: 25%;
+}
+
 .right-side {
   display: flex;
   flex-direction: column;
+  width: 75%;
 }
 
 .top-section {
@@ -18,16 +29,35 @@ main {
   background-color: #eaeaf4;
 }
 
+
+/* IDEA CARDS 📇 */
 .idea-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 30%;
   height: 250px;
   background-color: #ffffff;
   border: 1px solid #1f1f3d;
 }
 
+.idea-card > img {
+  height: 20px;
+}
+
 .card-nav {
   display: flex;
   justify-content: space-between;
   background-color: #1f1f3d;
+  height: 25px;
+  padding: 2px;
+}
+
+.card-body {
+  padding: 5px;
+}
+
+.card-footer {
+  background-color: #5356a4;
   height: 25px;
 }
