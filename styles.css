@@ -1,0 +1,33 @@
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-section {
+  height: 60%;
+}
+
+.bottom-section {
+  display: flex;
+  /* flex-flow: row; */
+  background-color: #eaeaf4;
+}
+
+.idea-card {
+  width: 30%;
+  height: 250px;
+  background-color: #ffffff;
+  border: 1px solid #1f1f3d;
+}
+
+.card-nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1f1f3d;
+  height: 25px;
+}
