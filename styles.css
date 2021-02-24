@@ -1,38 +1,40 @@
+/* WHOLE PAGE */
 * {
   /* border: 1px solid lavender; */
   font-family: 'Open Sans', sans-serif;
   margin: 0;
 }
 
-
-
 main {
   display: flex;
   flex-direction: row;
 }
 
+ /* LEFT SECTION */
 .left-section {
   width: 25%;
   background-color: #1f1f3d;
 }
 
+/* RIGHT SIDE */
 .right-side {
   display: flex;
   flex-direction: column;
   width: 75%;
 }
 
+/* TOP SECTION */
 .top-section {
   height: 60%;
   background-color: #5356a4;
 }
 
+/* BOTTOM SECTION */
 .bottom-section {
   display: flex;
   flex-flow: wrap;
   background-color: #eaeaf4;
 }
-
 
 /* IDEA CARDS 📇 */
 .idea-card {
@@ -57,7 +59,7 @@ main {
   align-items: center;
   background-color: #1f1f3d;
   border-bottom: 1px solid #1f1f3d;
-  height: 25px;
+  height: 35px;
   padding: 2px;
 }
 
@@ -74,7 +76,7 @@ main {
 .card-footer {
   display: flex;
   align-items: center;
-  height: 25px;
+  height: 35px;
   padding: 5px;
   background-color: #5356a4;
   border-top: 1px solid #1f1f3d;
