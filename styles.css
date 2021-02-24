@@ -3,12 +3,12 @@
   /* border: 1px solid lavender; */
   font-family: 'Open Sans', sans-serif;
   margin: 0;
-  padding: 0;
+  /* padding: 0; */
 }
 
-html, body, main {
+/* html, body, main {
   height: 100%;
-}
+} */
 
 main {
   display: flex;
@@ -16,26 +16,26 @@ main {
 }
 
 /* 👈🏽~~~~~~~~~~~~~~~~Left-Section~~~~~~~~~~~~~~~~~~👈🏽 */
-.left-section{
+/* .left-section{
 display: flex;
 flex-direction: column;
 background: #1F1F3D;
 width: 25%;
-}
-.divider{
+} */
+/* .divider{
 height: 2px;
 background-color: #353567;
 border: none;
 margin-top: 3.5px;
-}
-h1{
+} */
+/* h1{
 font-family: 'Open Sans', Bold;
 color: #E9E9F3;
 font-size: 27px;
 margin-top: 25px;
 margin-bottom: 21px;
 margin-left: 20px;
-}
+} */
 p{
 font-family: 'Open Sans', Light;
 color: #BFBFDD;
@@ -44,7 +44,7 @@ letter-spacing: 0.9px;
 font-weight: 600;
 margin-left: 20px;
 margin-top: 31px;
-/* padding-top:2px; */
+padding-top:2px;
 }
 .show-starred-btn{
 justify-content: center;
