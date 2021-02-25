@@ -17,7 +17,7 @@ main{
   display: flex;
   flex-direction: column;
   background: #1F1F3D;
-  width: 25%;
+  width: 30%;
 }
 .divider{
   height: 2px;
@@ -65,9 +65,9 @@ section {
     border-width: 1px;
 }
 
-.left-section{
+/* .left-section{
     width: 25%;
-}
+} */
 
 .right-side {
     display: flex;
