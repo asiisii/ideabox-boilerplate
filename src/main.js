@@ -25,13 +25,15 @@ function addIdeas(){
           </div>
         </article>
 	`
-	// clearOut();
-    disableSaveBtn();
+	clearOut();
+  //   disableSaveBtn();
 }
 function clearOut(){
 	if(titleInput.value && bodyInput.value){
 		titleInput.value= "";
 		bodyInput.value= "";
+    saveBtn.disabled = true;
+    saveBtn.style.backgroundColor = '#A9AAD2';
 	}
 }
 function disableSaveBtn(){
