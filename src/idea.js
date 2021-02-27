@@ -3,9 +3,11 @@ class Idea {
     this.id = Date.now();
     this.title = obj.title;
     this.body = obj.body;
-    this.star = obj.star;
+    this.star = false;
   }
-  saveToStorage() {}
+  saveToStorage() {
+    localStorage.setItem("savedIdeas", JSON.stringify(saveIdeaCards));
+  }
   deleteFromStorage() {}
   updateIdea() {}
 }
