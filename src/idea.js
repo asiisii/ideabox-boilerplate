@@ -5,7 +5,9 @@ class Idea {
     this.body = obj.body;
     this.star = false;
   }
-  saveToStorage() {}
+  saveToStorage() {
+    localStorage.setItem("savedIdeas", JSON.stringify(saveIdeaCards));
+  }
   deleteFromStorage() {}
   updateIdea() {}
 }
