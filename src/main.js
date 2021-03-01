@@ -15,6 +15,7 @@ enableBtn.addEventListener('mouseenter', enableSaveBtn);
 saveBtn.addEventListener('click', storeIdeaCard);
 btmSection.addEventListener('click',deleteOrFavorite);
 showStarredCardsBtn.addEventListener('click', showFavIdeaCards);
+searchBtn.addEventListener('click', searchCards);
 window.addEventListener('load', retreiveFromLocalStorage);
 //window.addEventListener('load', makeIdeaCard);
 
