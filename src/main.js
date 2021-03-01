@@ -15,7 +15,6 @@ saveBtn.addEventListener('click', storeIdeaCard);
 btmSection.addEventListener('click',deleteOrFavorite);
 showStarredCardsBtn.addEventListener('click', showFavIdeaCards);
 searchInput.addEventListener('keyup', searchCards);
-searchInput.addEventListener('keyup', checkEmpty);
 window.addEventListener('load', retreiveFromLocalStorage);
 
 function enableSaveBtn() {
@@ -140,10 +139,4 @@ function searchCards() {
 		}
 	}
 	makeIdeaCard(searchResults);
-}
-
-function checkEmpty() {
-	if (searchInput.value === "") {
-		searchCards();
-	}
 }
