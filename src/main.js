@@ -83,6 +83,7 @@ function deleteIdeaCard(event) {
 			idea.deleteFromStorage();
 		}
 	}
+
 	makeIdeaCard(saveIdeaCards);
 }
 
@@ -105,6 +106,7 @@ function showFavIdeaCards() {
 		makeIdeaCard(saveIdeaCards);
 		return;
 	}
+
 	for (var i = 0; i < saveIdeaCards.length; i++) {
 		if(saveIdeaCards[i].star){
 		  showStarredBtn.innerText = "Show All Ideas";
