@@ -3,18 +3,21 @@ var saveIdeaCards = [];
 
 var titleInput = document.getElementById('titleInput');
 var bodyInput = document.getElementById('bodyInput');
+var searchInput = document.getElementById('searchInput')
 var btmSection = document.getElementById('bottomSection');
 
 var saveBtn = document.getElementById('topFormBtn');
 var enableBtn = document.getElementById('saveBtn');
 var showStarredCardsBtn = document.getElementById('showStarredBtn');
+var searchBtn = document.getElementById('glassBox');
 
 enableBtn.addEventListener('mouseenter', enableSaveBtn);
 saveBtn.addEventListener('click', storeIdeaCard);
 btmSection.addEventListener('click',deleteOrFavorite);
 showStarredCardsBtn.addEventListener('click', showFavIdeaCards);
+searchBtn.addEventListener('click', searchCards);
+searchInput.addEventListener('keyup', checkEmpty);
 window.addEventListener('load', retreiveFromLocalStorage);
-// window.addEventListener('load', makeIdeaCard);
 
 function enableSaveBtn() {
   if (titleInput.value && bodyInput.value) {
@@ -125,4 +128,23 @@ function retreiveFromLocalStorage() {
 	}
 
 	makeIdeaCard(saveIdeaCards);
+}
+
+function searchCards() {
+	btmSection.innerHTML = "";
+	var searchResults = [];
+	var searchValue = searchInput.value.toUpperCase();
+	for (var i = 0; i < saveIdeaCards.length; i++) {
+		if (saveIdeaCards[i].title.toUpperCase().includes(searchValue)||
+		saveIdeaCards[i].body.toUpperCase().includes(searchValue)) {
+			searchResults.push(saveIdeaCards[i]);
+		}
+	}
+	makeIdeaCard(searchResults);
+}
+
+function checkEmpty() {
+	if (searchInput.value === "") {
+		searchCards();
+	}
 }
