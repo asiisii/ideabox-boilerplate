@@ -130,8 +130,7 @@ function retreiveFromLocalStorage() {
 	makeIdeaCard(saveIdeaCards);
 }
 
-function searchCards(evt) {
-	evt.preventDefault();
+function searchCards() {
 	btmSection.innerHTML = "";
 	var searchResults = [];
 	var searchValue = searchInput.value.toUpperCase();
@@ -142,4 +141,10 @@ function searchCards(evt) {
 		}
 	}
 	makeIdeaCard(searchResults);
+}
+
+function checkEmpty() {
+	if (searchInput.value === "") {
+		searchCards();
+	}
 }
