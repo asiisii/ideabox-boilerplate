@@ -1,5 +1,5 @@
 var idea = new Idea();
-var saveIdeaCards= [];
+var saveIdeaCards = [];
 
 var titleInput = document.getElementById('titleInput');
 var bodyInput = document.getElementById('bodyInput');
@@ -14,34 +14,37 @@ saveBtn.addEventListener('click', storeIdeaCard);
 btmSection.addEventListener('click',deleteOrFavorite);
 showStarredCardsBtn.addEventListener('click', showFavIdeaCards);
 window.addEventListener('load', retreiveFromLocalStorage);
-window.addEventListener('load', makeIdeaCard);
+// window.addEventListener('load', makeIdeaCard);
 
-function enableSaveBtn(){
-  if(titleInput.value && bodyInput.value){
-    saveBtn.disabled =false;
+function enableSaveBtn() {
+  if (titleInput.value && bodyInput.value) {
+    saveBtn.disabled = false;
 		saveBtn.classList.remove('disable-save-btn');
   }
 }
-function clearOut(){
-	if(titleInput.value && bodyInput.value){
-		titleInput.value= null;
-		bodyInput.value= null;
+
+function clearOut() {
+	if (titleInput.value && bodyInput.value) {
+		titleInput.value = null;
+		bodyInput.value = null;
     saveBtn.disabled = true;
     saveBtn.classList.add('disable-save-btn');
 	}
 }
-function storeIdeaCard(event){
-		event.preventDefault();
-		idea = new Idea(titleInput.value, bodyInput.value);
-		if(!saveIdeaCards.includes(idea)){
-			saveIdeaCards.push(idea);
-			idea.saveToStorage();
-			makeIdeaCard(saveIdeaCards);
-			clearOut();
-		}
+
+function storeIdeaCard(event) {
+	event.preventDefault();
+	idea = new Idea(titleInput.value, bodyInput.value);
+	if (!saveIdeaCards.includes(idea)) {
+		saveIdeaCards.push(idea);
+		idea.saveToStorage();
+		makeIdeaCard(saveIdeaCards);
+		clearOut();
+	}
 }
-function makeIdeaCard(ideaCards){
-	btmSection.innerHTML ="";
+
+function makeIdeaCard(ideaCards) {
+	btmSection.innerHTML = "";
 	for (var i = 0; i < ideaCards.length; i++) {
 		var starImg = ideaCards[i].star ? starImg = "./assets/star-active.svg" : starImg = "./assets/star.svg";
 		btmSection.innerHTML +=
@@ -61,57 +64,63 @@ function makeIdeaCard(ideaCards){
 		`
 	}
 }
-function deleteOrFavorite(){
-	if(event.target.classList.contains('star')){
+
+function deleteOrFavorite(event) {
+	if (event.target.classList.contains('star')) {
 		changeStar(event);
-	}else{
+	} else {
 		deleteIdeaCard(event);
 	}
 }
-function deleteIdeaCard(event){
+
+function deleteIdeaCard(event) {
 	event.preventDefault();
 	var getId = event.target.closest('.delete').id;
 	var newGetId = parseInt(getId);
 	for (var i = 0; i < saveIdeaCards.length; i++) {
-		if(newGetId === saveIdeaCards[i].id){
-			saveIdeaCards.splice(i,1);
+		if (newGetId === saveIdeaCards[i].id) {
+			saveIdeaCards.splice(i, 1);
 			idea.deleteFromStorage();
 		}
 	}
 	makeIdeaCard(saveIdeaCards);
 }
-function changeStar(event){
+
+function changeStar(event) {
 	var getId = event.target.closest('.star');
 	var newGetId = parseInt(getId.id);
 	for (var i = 0; i < saveIdeaCards.length; i++) {
-		if(newGetId === saveIdeaCards[i].id){
+		if (newGetId === saveIdeaCards[i].id) {
 			idea.updateIdea();
 			idea.saveToStorage();
 		}
 	}
 }
-function showFavIdeaCards(){
-	btmSection.innerHTML ="";
+
+function showFavIdeaCards() {
+	btmSection.innerHTML = "";
 	var favIdeaCards = [];
-	if(showStarredBtn.innerText === "Show All Ideas"){
+	if (showStarredBtn.innerText === "Show All Ideas") {
 		showStarredBtn.innerText = "Show Starred Ideas";
 		makeIdeaCard(saveIdeaCards);
 		return;
 	}
 	for (var i = 0; i < saveIdeaCards.length; i++) {
-		console.log(saveIdeaCards[i].star);
-			if(saveIdeaCards[i].star){
-				showStarredBtn.innerText = "Show All Ideas";
-				favIdeaCards.push(saveIdeaCards[i]);
-			}
+		if(saveIdeaCards[i].star){
+		  showStarredBtn.innerText = "Show All Ideas";
+		  favIdeaCards.push(saveIdeaCards[i]);
 		}
-		makeIdeaCard(favIdeaCards);
+	}
+
+	makeIdeaCard(favIdeaCards);
 }
-function retreiveFromLocalStorage(){
-	btmSection.innerHTML ="";
+
+function retreiveFromLocalStorage() {
+	btmSection.innerHTML = "";
 	var items = JSON.parse(localStorage.getItem("savedIdeas"));
 	for (var i = 0; i < items.length; i++) {
 			saveIdeaCards.push(items[i]);
 	}
+
 	makeIdeaCard(saveIdeaCards);
 }
