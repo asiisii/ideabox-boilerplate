@@ -19,10 +19,13 @@
     <section class="top-section">
       <form class="top-form">
         <label class="title" for="">Title</label>
-        <input class="title-input" id="titleInput" type="text" name="" value="">
+        <input class="title-input" id="titleInput" type="text" name="" value="" >
         <label class="body" for="">Body</label>
-        <input class="body-input" id="bodyInput" type="text" name="" value="">
-        <button type="button" class="top-form-btn" id="topFormBtn" name="button">Save</button>
+        <input class="body-input" id="bodyInput" type="text" name="" value="" >
+      <div class="save-btn" id="saveBtn">
+          <button type="button" class="top-form-btn disable-save-btn" id="topFormBtn" name="button" disabled>Save</button>
+      </div>
+
         <div class="search-bar">
           <div class="glass-box">
             <img class="magnifying-glass" src="./assets/search.svg" alt="Search Glass">
@@ -31,7 +34,8 @@
         </div>
       </form>
     </section>
-    <section class="bottom-section" id="bottomSection"></section>
+    <section class="bottom-section" id="bottomSection">
+    </section>
   </main>
   <script src="./src/idea.js"></script>
   <script src="./src/main.js"></script>
