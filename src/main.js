@@ -16,6 +16,7 @@ saveBtn.addEventListener('click', storeIdeaCard);
 btmSection.addEventListener('click',deleteOrFavorite);
 showStarredCardsBtn.addEventListener('click', showFavIdeaCards);
 searchBtn.addEventListener('click', searchCards);
+searchInput.addEventListener('keyup', checkEmpty);
 window.addEventListener('load', retreiveFromLocalStorage);
 
 function enableSaveBtn() {
