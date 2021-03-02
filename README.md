@@ -41,7 +41,7 @@ Search Filter in action:
 - ![Search Inputs GIF](readme-img-folder/searchInputs.gif)
 
 Show Favorites in action:
--![Show Favorites GIF](readme-img-folder/showFavorites.gif)
+- ![Show Favorites GIF](readme-img-folder/showFavorites.gif)
 
 ## Want to contribute?
 Provide instructions for how users can fork/clone the repo and contribute to the project
