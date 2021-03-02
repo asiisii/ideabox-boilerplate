@@ -34,13 +34,13 @@
 - First the user enters whatever text they want in both the `Title` and `Body` sections and clicks the `Save` button to add a new card to the bottom of their page. Once saved to the bottom of the page, the user can favorite their new idea card by clicking the `Star` icon on the card, delete by clicking the `X` icon on the card, and filter in two ways; either by typing text into the `Search Bar`, or filtering by favorites using the `Show Starred Ideas` button located on the left side of the screen.
 
 
-(*Note: The save button will only become clicable once the user has entered text in *both* the title and body sections.) 
+#### (*Note: The save button will only become clicable once the user has entered text in *both* the title and body sections.) 
 ![image or gif](readme-img-folder/saveDisabled.gif)
 
-Search Filter in action:
+#### Search Filter in action:
 ![Search Inputs GIF](readme-img-folder/searchInputs.gif)
 
-Show Favorites in action:
+#### Show Favorites in action:
 ![Show Favorites GIF](readme-img-folder/showFavorites.gif)
 
 ## Want to contribute?
