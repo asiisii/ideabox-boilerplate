@@ -1,6 +1,6 @@
 # IdeaBox
 #### Keep your thinking outside the box, store all your thoughts inside the box. (some snappy oneline)
-![Landing Page](readme-img-folder/addFirstBox.gif) image needed: addFirstBox.gif
+![Landing Page](readme-img-folder/addFirstBox.gif)
 - [view the deployed page](https://asiisii.github.io/ideabox-boilerplate/)
 
 ### Table of Contents
@@ -31,18 +31,18 @@ The ideabox project was intended to further our understanding of writing clean H
 IdeaBox has a user input for a title and a body, a save button that will generate a card at the bottom of the page and commit it to localStorage (ergo persisting on page load), a search bar to filter through said cards, a favoriting option (utilizing a recolor of the star icon on each individual card) that has a corresponding button that will show only cards that you've favorited, as well as the ability for a user to delete any cards they may have created.
 
 ## How does this work?
-![Add Card GIF](readme-img-folder/addPope.gif) image needed: addPope.gif
+![Add Card GIF](readme-img-folder/addPope.gif)
 - First the user enters whatever text they want in both the `Title` and `Body` sections and clicks the `Save` button to add a new card to the bottom of their page. Once saved to the bottom of the page, the user can favorite their new idea card by clicking the `Star` icon on the card, delete by clicking the `X` icon on the card, and filter in two ways; either by typing text into the `Search Bar`, or filtering by favorites using the `Show Starred Ideas` button located on the left side of the screen.
 
 
 (*Note: The save button will only become clicable once the user has entered text in *both* the title and body sections.) 
-- ![image or gif](readme-img-folder/saveDisabled.PNG) image needed: saveDisabled.PNG
+- ![image or gif](readme-img-folder/saveDisabled.PNG)
 
 Search Filter in action:
-- ![Search Inputs GIF](readme-img-folder/searchInputs.gif) image needed: searchInputs.gif
+- ![Search Inputs GIF](readme-img-folder/searchInputs.gif)
 
 Show Favorites in action:
--![Show Favorites GIF](readme-img-folder/showFavorites.gif) image needed: showFavorites.gif
+-![Show Favorites GIF](readme-img-folder/showFavorites.gif)
 
 ## Want to contribute?
 Provide instructions for how users can fork/clone the repo and contribute to the project
