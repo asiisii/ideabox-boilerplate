@@ -35,13 +35,13 @@
 
 
 (*Note: The save button will only become clicable once the user has entered text in *both* the title and body sections.) 
-- ![image or gif](readme-img-folder/saveDisabled.gif)
+![image or gif](readme-img-folder/saveDisabled.gif)
 
 Search Filter in action:
-- ![Search Inputs GIF](readme-img-folder/searchInputs.gif)
+![Search Inputs GIF](readme-img-folder/searchInputs.gif)
 
 Show Favorites in action:
-- ![Show Favorites GIF](readme-img-folder/showFavorites.gif)
+![Show Favorites GIF](readme-img-folder/showFavorites.gif)
 
 ## Want to contribute?
 Provide instructions for how users can fork/clone the repo and contribute to the project
