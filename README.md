@@ -35,7 +35,7 @@
 
 
 (*Note: The save button will only become clicable once the user has entered text in *both* the title and body sections.) 
-- ![image or gif](readme-img-folder/saveDisabled.PNG)
+- ![image or gif](readme-img-folder/saveDisabled.gif)
 
 Search Filter in action:
 - ![Search Inputs GIF](readme-img-folder/searchInputs.gif)
