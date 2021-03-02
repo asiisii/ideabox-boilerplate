@@ -1,5 +1,5 @@
 # IdeaBox
-#### Keep your thinking outside the box, store all your thoughts inside the box. (some snappy oneline)
+#### Keep your thinking outside the box, *store* your thinking inside the box.
 ![Landing Page](readme-img-folder/addFirstBox.gif)
 - [view the deployed page](https://asiisii.github.io/ideabox-boilerplate/)
 
