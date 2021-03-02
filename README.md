@@ -45,24 +45,30 @@
 
 ## Want to contribute?
 Provide instructions for how users can fork/clone the repo and contribute to the project
-If you'd like to contribute, please fork this repository and clone it down to your local machine. Once you've successfully implemented the changes in code necessary for your intended contribution without changing any of the current functionality of main, you may _____________ (What would we like them to do?).
+If you'd like to contribute, please fork this repository and clone it down to your local machine. Once you've successfully implemented the changes in code necessary for your intended contribution without changing any of the current functionality of main, contact one of the authors to review the changes.
 
 ### Technologies Used
-Github Pages used for app deployment and project board, GH used to handle all commits and our repository. (other technologies?)
+Github Pages used for app deployment and project board, GH used to handle the repository.
 
 ## Project Reflection
-General project reflection, an overview of how it went
 
 ##### Wins
 Overall wins - what went really well?
 
+We finished our project along the time scale we set in our goals, finishing iteration 4 with enough time to refactor, clean up and review in the way that we wanted. We believe we wrote fairly DRY code in accordance with SRP. We followed our DTR in spirit and implementation quite successfully as well. We learned a ton of information working on this project together and still had time throughout to allow ourselves to practice with test prep.
+
 ##### Challenges
+
 Overall challenges - what could have gone better?
 
+We could have been more intentional about defining a successful schedule, more specifically decide on when we should be writing code as a team rather than individually which resulted in some merge challenges and additional time spent refactoring. Implementing localStorage was difficult, despite it's technical steps being straightforward and consistent.
+
 ##### Overall Impressions
-How did it go?
+
+We enjoyed working on this project together and think that the product we came up with is in line with what we wanted to get out of it.
 
 #### Future Features
+
 What's next for this project?
 
 Next iteration : 5 - Commenting on Ideas:
@@ -89,20 +95,20 @@ Next iteration : 5 - Commenting on Ideas:
 </table>
 
 ##### Co-Contributors
-- [name](profile link in the parens)
-##### Mentors
-- [Garrett Iannuzzi](profile link in the parens)
-- [name](profile link in the parens)
-- [name](profile link in the parens)
+####Thank you for your contributions!
+- For entertaining late night project conversations: [Jim Charmesky](https://github.com/bigbike96)
+
 ##### Project Manager
 <table>
     <tr>
-        <td><img src="https://avatars.githubusercontent.com/u/48163945?s=400&u=3b21c393ae112212f673cb4726fcec4d4a7d0d3b&v=4" alt="hfaerber GH img"
- width="150" height="auto" />  <a href="https://github.com/hfaerber">Heather Faerber</td>
+         <td>Heather Faerber<a href="https://github.com/hfaerber">GH</td>
     </tr>
+    </tr>
+    <td><img src="https://avatars.githubusercontent.com/u/36644181?s=400&u=bac07fd62de7d01a09ce8f27f88590d5caa202df&v=4" alt="Asiisii GH img"
+ width="150" height="auto" /></td>
+</tr>
 </table>
 
-<!-- - [name](profile link in the parens) -->
 **************************************************************************
 ###### This project was created for [Turing School of Software and Design](https://turing.io/)
 ###### 2021/03/02
