@@ -101,7 +101,7 @@ Next iteration : 5 - Commenting on Ideas:
 ##### Project Manager
 <table>
     <tr>
-         <td>Heather Faerber<a href="https://github.com/hfaerber">GH</td>
+         <td> Heather Faerber <a href="https://github.com/hfaerber">GH</td>
     </tr>
     </tr>
     <td><img src="https://avatars.githubusercontent.com/u/48163945?s=400&u=3b21c393ae112212f673cb4726fcec4d4a7d0d3b&v=4" alt="hfaerber GH img"
