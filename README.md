@@ -95,7 +95,9 @@ Next iteration : 5 - Commenting on Ideas:
 </table>
 
 ##### Co-Contributors
-####Thank you for your contributions!
+
+##### Thank you for your contributions!
+
 - For entertaining late night project conversations: [Jim Charmesky](https://github.com/bigbike96)
 
 ##### Project Manager
