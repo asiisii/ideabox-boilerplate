@@ -21,14 +21,13 @@
    The [goal](https://frontend.turing.io/projects/module-1/ideabox-group.html) behind IdeaBox was to build an application that would aid in channeling our creativity by giving us a space to store and sort through our ideas.
 
 ### Learning Goals
-- (DTR Here: https://gist.github.com/asiisii/0df07c5bde6dd624e05df347219bfe42)
--    Both our overaching group goal as well as our individually set goals all seem to have been met with this project. The group goal being easiest to quantify; we set out to complete iteration 4 with no bugs. Ashish was seeking further understanding of data model vs DOM. Nichele's were to actually understand how (and why) to implement a class and to seek better understanding of the intersection of DOM and data model, and Plum's were to work towards increasing his general competence in HTML/CSS.
+   Both our overaching group goal as well as our individually set goals (set in our [DTR](https://gist.github.com/asiisii/0df07c5bde6dd624e05df347219bfe42)) all seem to have been met with this project. The group goal being easiest to quantify; we set out to complete iteration 4 with no bugs. Ashish was seeking further understanding of data model vs DOM. Nichele's were to actually understand how (and why) to implement a class and to seek better understanding of the intersection of DOM and data model, and Plum's were to work towards increasing his general competence in HTML/CSS.
 
 ### Why was this project created?
-The ideabox project was intended to further our understanding of writing clean HTML & CSS to match a comp, implement client-side data persistence by utilizing JSON and localStorage, work with filters, keeping firm separation on data model vs DOM, and pushing towards writing DRY code as well as keeping SRP in mind.
+   The ideabox project was intended to further our understanding of writing clean HTML & CSS to match a comp, implement client-side data persistence by utilizing JSON and localStorage, work with filters, keeping firm separation on data model vs DOM, and pushing towards writing DRY code as well as keeping SRP in mind.
 
 ## Features
-IdeaBox has a user input for a title and a body, a save button that will generate a card at the bottom of the page and commit it to localStorage (ergo persisting on page load), a search bar to filter through said cards, a favoriting option (utilizing a recolor of the star icon on each individual card) that has a corresponding button that will show only cards that you've favorited, as well as the ability for a user to delete any cards they may have created.
+   IdeaBox has a user input for a title and a body, a save button that will generate a card at the bottom of the page and commit it to localStorage (ergo persisting on page load), a search bar to filter through said cards, a favoriting option (utilizing a recolor of the star icon on each individual card) that has a corresponding button that will show only cards that you've favorited, as well as the ability for a user to delete any cards they may have created.
 
 ## How does this work?
 ![Add Card GIF](readme-img-folder/addPope.gif)
