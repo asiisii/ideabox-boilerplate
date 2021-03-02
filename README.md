@@ -104,7 +104,7 @@ Next iteration : 5 - Commenting on Ideas:
          <td>Heather Faerber<a href="https://github.com/hfaerber">GH</td>
     </tr>
     </tr>
-    <td><img src="https://avatars.githubusercontent.com/u/36644181?s=400&u=bac07fd62de7d01a09ce8f27f88590d5caa202df&v=4" alt="Asiisii GH img"
+    <td><img src="https://avatars.githubusercontent.com/u/48163945?s=400&u=3b21c393ae112212f673cb4726fcec4d4a7d0d3b&v=4" alt="hfaerber GH img"
  width="150" height="auto" /></td>
 </tr>
 </table>
