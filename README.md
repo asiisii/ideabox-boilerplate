@@ -98,7 +98,7 @@ Next iteration : 5 - Commenting on Ideas:
 
 ##### Thank you for your contributions!
 
-- For entertaining late night project conversations: [Jim Charmesky](https://github.com/bigbike96)
+- For entertaining late night project conversations: [Jim Charnesky](https://github.com/bigbike96)
 
 ##### Project Manager
 <table>
